@@ -1,0 +1,22 @@
+{
+    "description": "Add description here",
+    "type": "typo3-flow-site",
+    "require": {
+        "typo3/neos": "*",
+        "typo3/neos-nodetypes": "*"
+    },
+    "suggest": {
+        "typo3/neos-seo": "*"
+    },
+    "name": "ww/whiskeyworld",
+    "autoload": {
+        "psr-0": {
+            "WW\\WhiskeyWorld": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "WW.WhiskeyWorld"
+        }
+    }
+}

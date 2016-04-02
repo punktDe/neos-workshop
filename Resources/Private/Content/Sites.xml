@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <site name="whiskeyworld.local" state="1" siteResourcesPackageKey="WW.WhiskeyWorld" siteNodeName="whiskeyworld">
+  <nodes formatVersion="2.0">
+   <node nodeName="whiskeyworld">
+    <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+     
+     </dimensions>
+     <accessRoles __type="array"/>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+     </properties>
+    </variant>
+    <node nodeName="main">
+     <variant workspace="live" nodeType="TYPO3.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+      
+      </dimensions>
+      <accessRoles __type="array"/>
+     </variant>
+     <node nodeName="text1">
+      <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+       
+       </dimensions>
+       <accessRoles __type="array"/>
+       <properties>
+        <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
+       </properties>
+      </variant>
+     </node>
+    </node>
+   </node>
+  </nodes>
+ </site>
+</root>
