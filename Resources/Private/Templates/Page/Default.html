@@ -4,7 +4,7 @@
 <html>
 <head>
 	<f:section name="stylesheets">
-		<!-- Put your stylesheet inclusions here, they will be included in your website by TypoScript -->
+        <link rel="stylesheet" href="{f:uri.resource(path: 'Styles/WhiskeyWorld.css', package: 'WW.WhiskeyWorld')}" />
 	</f:section>
 	<f:section name="headScripts">
 		<!-- Put your scripts inclusions for the head here, they will be included in your website by TypoScript -->
@@ -12,13 +12,14 @@
 </head>
 <body>
 <f:section name="body">
-	<nav class="menu">
-		{parts.menu -> f:format.raw()}
-	</nav>
-	<nav class="breadcrumb">
-		{parts.breadcrumb -> f:format.raw()}
-	</nav>
-	<div class="content">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="/">WhiskeyWorld</a>
+            {parts.menu -> f:format.raw()}
+        </div>
+    </nav>
+
+	<div class="container">
 		{content.main -> f:format.raw()}
 	</div>
 </f:section>
