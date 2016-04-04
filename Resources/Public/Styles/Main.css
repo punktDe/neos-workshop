@@ -9,10 +9,15 @@
 /**
 * WhiskeyWorlds CSS
 */
-.navbar-brand {
-    font-weight: bolder;
-    color: #4A3D32;
-    font-size: 2em;
+.navbar-default .navbar-brand {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+    color: #241210;
+    font-size: 3em;
+}
+
+.navbar-default .navbar-brand span {
+    color: #75040e;
 }
 
 .navbar {
@@ -20,16 +25,28 @@
     padding: 41px 10px 27px;
 }
 
-.navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a {
     font-size: 15px;
     line-height: 15px;
-    text-transform: uppercase;
     margin: 0 20px;
+    font-size: 1.3em;
+    color: #241210;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #75040e;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 footer {
-    padding-top: 5.31rem;
-    background-color: #4A3D32;
+    margin-top: 3rem;
+    padding-top: 4.0rem;
+    background-color: #75040e;
     min-height: 400px;
     color: white;
 }

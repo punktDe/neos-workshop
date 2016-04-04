@@ -1,21 +1,21 @@
 /**
- * Root TypoScript template for the whiskeyworld.local site
+ * Root TypoScript template for the weinladen.local site
  */
 page = Page {
 	head {
 		stylesheets.site = TYPO3.TypoScript:Template {
-			templatePath = 'resource://WW.WhiskeyWorld/Private/Templates/Page/Default.html'
+			templatePath = 'resource://WL.WeinLaden/Private/Templates/Page/Default.html'
 			sectionName = 'stylesheets'
 		}
 
 		javascripts.site = TYPO3.TypoScript:Template {
-			templatePath = 'resource://WW.WhiskeyWorld/Private/Templates/Page/Default.html'
+			templatePath = 'resource://WL.WeinLaden/Private/Templates/Page/Default.html'
 			sectionName = 'headScripts'
 		}
 	}
 
 	body {
-		templatePath = 'resource://WW.WhiskeyWorld/Private/Templates/Page/Default.html'
+		templatePath = 'resource://WL.WeinLaden/Private/Templates/Page/Default.html'
 		sectionName = 'body'
 		parts {
 			menu = Menu {
@@ -32,7 +32,7 @@ page = Page {
 		}
 
 		javascripts.site = TYPO3.TypoScript:Template {
-			templatePath = 'resource://WW.WhiskeyWorld/Private/Templates/Page/Default.html'
+			templatePath = 'resource://WL.WeinLaden/Private/Templates/Page/Default.html'
 			sectionName = 'bodyScripts'
 		}
 	}

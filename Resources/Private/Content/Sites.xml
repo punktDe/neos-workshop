@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
- <site name="whiskeyworld.local" state="1" siteResourcesPackageKey="WW.WhiskeyWorld" siteNodeName="whiskeyworld">
+ <site name="weinladen.local" state="1" siteResourcesPackageKey="WL.WeinLaden" siteNodeName="weinladen">
   <nodes formatVersion="2.0">
-   <node nodeName="whiskeyworld">
+   <node nodeName="weinladen">
     <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
      <dimensions>
      

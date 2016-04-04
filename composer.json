@@ -8,7 +8,7 @@
     "suggest": {
         "typo3/neos-seo": "*"
     },
-    "name": "ww/whiskeyworld",
+    "name": "ww/weinladen",
     "autoload": {
         "psr-0": {
             "WW\\WhiskeyWorld": "Classes/"
@@ -16,7 +16,7 @@
     },
     "extra": {
         "neos": {
-            "package-key": "WW.WhiskeyWorld"
+            "package-key": "WL.WeinLaden"
         }
     }
 }
