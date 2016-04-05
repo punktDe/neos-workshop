@@ -29,6 +29,11 @@ page = Page {
 			main = PrimaryContent {
 				nodePath = 'main'
 			}
+
+			footer = ContentCollection {
+				nodePath = ${q(site).children('footer').property('_path')}
+				collection = ${q(site).children('footer').children()}
+			}
 		}
 
 		javascripts.site = TYPO3.TypoScript:Template {
