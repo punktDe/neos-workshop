@@ -1,0 +1,56 @@
+'WL.WeinLaden:Wine':
+  superTypes:
+    'TYPO3.Neos:Content': true
+  ui:
+    label: Wein
+    icon: icon-glass
+    inspector:
+      groups:
+        wine:
+          label: Wein
+  properties:
+    title:
+      type: string
+      ui:
+        label: 'Name'
+        inlineEditable: true
+        aloha:
+          placeholder: 'Titel des Weins'
+    description:
+      type: string
+      ui:
+        label: 'Beschreibung'
+        inlineEditable: true
+        aloha:
+          placeholder: 'Beschreibung des Weins'
+    grape:
+      type: string
+      defaultValue: ''
+      ui:
+        label: Rebsorte
+        help.message: Hier bitte die Rebsorte wählen
+        reloadIfChanged: true
+        inspector:
+          group: wine
+          editor: TYPO3.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            values:
+              Merlot:
+                label: Merlot
+              Syrah:
+                label: Syrah
+              Chardonnay:
+                label: Chardonnay
+    image:
+      type: TYPO3\Media\Domain\Model\ImageInterface
+      ui:
+        label: Bild
+        reloadIfChanged: true
+        inspector:
+          group: wine
+          editorOptions:
+            crop:
+              aspectRatio:
+                locked:
+                  width: 3
+                  height: 2

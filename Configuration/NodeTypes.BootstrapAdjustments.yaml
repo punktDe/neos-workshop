@@ -1,0 +1,36 @@
+'TYPO3.Neos.NodeTypes:TwoColumn':
+  properties:
+    'layout':
+      defaultValue: '9-3'
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              '50-50': ~
+              '75-25': ~
+              '25-75': ~
+              '66-33': ~
+              '33-66': ~
+              '9-3':
+                label: '75% / 25%'
+              '6-6':
+                label: '50% / 50%'
+              '3-9':
+                label: '25% / 75%'
+
+'TYPO3.Neos.NodeTypes:ThreeColumn':
+  properties:
+    layout:
+      defaultValue: '4-4-4'
+      ui:
+        reloadIfChanged: true
+        label: ''
+        inspector:
+          editorOptions:
+            values:
+              '33-33-33': ~
+              '50-25-25': ~
+              '25-50-25': ~
+              '25-25-50': ~
+              '4-4-4':
+                label: '33% / 34% / 33%'

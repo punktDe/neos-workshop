@@ -1,0 +1,13 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<div {attributes -> f:format.raw()}>
+    <div class="thumbnail">
+        <f:render partial="Image" arguments="{image:node.properties.image, alt:node.properties.title}" />
+        <div class="caption">
+            <neos:contentElement.editable property="title" tag="h3" />
+            <neos:contentElement.editable property="description" tag="p" />
+            <div class="row">
+                <div class="col-md-6">Rebsorte:</div><div class="col-md-6"><b>{node.properties.grape}</b></div>
+            </div>
+        </div>
+    </div>
+</div>
