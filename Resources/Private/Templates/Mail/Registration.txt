@@ -1,0 +1,9 @@
+Hallo liebes Weinladen Team,
+
+eben ging eine neue Anmeldung für die Weinprobe im {form.formState.formValues.date} ein:
+
+Name:     {form.formState.formValues.name}
+E-Mail:   {form.formState.formValues.email}
+Kommentar:{form.formState.formValues.comment}
+
+Viele Grüße

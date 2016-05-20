@@ -1,0 +1,60 @@
+type: 'TYPO3.Form:Form'
+identifier: 'registration-form'
+label: 'Anmeldung zur Weinprobe'
+renderingOptions:
+  submitButtonLabel: 'Anmelden'
+renderables:
+  -
+    type: 'TYPO3.Form:Page'
+    identifier: 'registration'
+    renderables:
+      -
+        type: 'TYPO3.Form:SingleSelectDropdown'
+        identifier: 'date'
+        label: 'Datum'
+        properties:
+          options:
+            'September 2016': 'Weinprobe September 2016'
+            'Oktober 2016': 'Weinprobe Oktober 2016'
+            'November 2016': 'Weinprobe November 2016'
+      -
+        type: 'TYPO3.Form:SingleLineText'
+        identifier: 'name'
+        validators:
+          - identifier: 'TYPO3.Flow:NotEmpty'
+        properties:
+          placeholder: 'Name'
+      -
+        type: 'TYPO3.Form:SingleLineText'
+        identifier: 'email'
+        validators:
+          - identifier: 'TYPO3.Flow:NotEmpty'
+          - identifier: 'TYPO3.Flow:EmailAddress'
+        properties:
+          placeholder: 'E-Mail'
+      -
+        type: 'TYPO3.Form:MultiLineText'
+        identifier: 'comment'
+        properties:
+          placeholder: 'Kommentar'
+          rows: '3'
+        defaultValue: ''
+finishers:
+  -
+    identifier: 'TYPO3.Form:Confirmation'
+    options:
+      message: >
+        <h3>Vielen Dank für Ihre Anmeldung!</h3>
+        <p>Wir freuen uns, Sie bei unserer Weinprobe im {formState.formValues.date} begrüßen zu dürfen.</p>
+        <p>Ihr Weinladen Team</p>
+  -
+    identifier: 'TYPO3.Form:Email'
+    options:
+      templatePathAndFilename: 'resource://WL.Weinladen/Private/Templates/Mail/Registration.txt'
+      subject: 'Neue Anmeldung zur Weinprobe'
+      recipientAddress: 'anmeldung@weinladen'
+      recipientName: 'Weinladen'
+      senderAddress: 'no-reply@weinladen'
+      senderName: '{name}'
+      replyToAddress: 'no-reply@weinladen'
+      format: 'plaintext'

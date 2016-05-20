@@ -7,3 +7,14 @@
   childNodes:
     'footer':
       type: 'TYPO3.Neos:ContentCollection'
+
+
+'TYPO3.Neos.NodeTypes:Form':
+  properties:
+    formIdentifier:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              'registration-form':
+                label: 'Anmeldung zur Weinprobe'
