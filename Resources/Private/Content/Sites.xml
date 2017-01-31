@@ -2,30 +2,53 @@
 <root>
  <site name="weinladen.local" state="1" siteResourcesPackageKey="WL.WeinLaden" siteNodeName="weinladen">
   <nodes formatVersion="2.0">
-   <node nodeName="weinladen">
-    <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Page" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-     
-     </dimensions>
+   <node identifier="19598474-0f13-42ae-af84-127a223fe00f" nodeName="weinladen">
+    <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
      <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:50:43+01:00</lastModificationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
+      <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
-    <node nodeName="main">
-     <variant workspace="live" nodeType="TYPO3.Neos:ContentCollection" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-      
-      </dimensions>
+    <node identifier="bc4351a8-4afd-0b8e-2cee-24ce1c903b92" nodeName="footer">
+     <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
       <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:50:43+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:50:43+01:00</lastModificationDateTime>
+      <properties/>
      </variant>
-     <node nodeName="text1">
-      <variant workspace="live" nodeType="TYPO3.Neos.NodeTypes:Text" sortingIndex="100" version="1" removed="" hidden="" hiddenInIndex="">
-       <dimensions>
-       
-       </dimensions>
+     <node identifier="0599dcc9-71d8-476e-821d-14aca37ace86" nodeName="node-5890eaa90a3f0">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
        <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:05+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:18+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:18+01:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string"></text>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="468dd6bb-b194-f700-6415-1707feabf41a" nodeName="main">
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</lastModificationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="39d955e3-a6ef-49e1-afd9-7b9b09d49e9c" nodeName="text1">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="1" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</lastModificationDateTime>
        <properties>
         <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
        </properties>
