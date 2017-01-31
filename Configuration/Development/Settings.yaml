@@ -1,6 +1,6 @@
-TYPO3:
+Neos:
   SwiftMailer:
     transport:
-      type: 'TYPO3\SwiftMailer\Transport\MboxTransport'
+      type: 'Neos\SwiftMailer\Transport\MboxTransport'
       options:
         mboxPathAndFilename: '%FLOW_PATH_DATA%/last-mail.mbox'

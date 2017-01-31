@@ -1,3 +1,0 @@
-prototype(WL.WeinLaden:Wine) < prototype(TYPO3.Neos:Content) {
-    partialRootPath = 'resource://TYPO3.Neos.NodeTypes/Private/Templates/NodeTypes/Partials'
-}

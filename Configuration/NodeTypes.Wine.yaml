@@ -1,6 +1,6 @@
 'WL.WeinLaden:Wine':
   superTypes:
-    'TYPO3.Neos:Content': true
+    'Neos.Neos:Content': true
   ui:
     label: Wein
     icon: icon-glass
@@ -32,7 +32,7 @@
         reloadIfChanged: true
         inspector:
           group: wine
-          editor: TYPO3.Neos/Inspector/Editors/SelectBoxEditor
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
           editorOptions:
             values:
               Merlot:
@@ -42,7 +42,7 @@
               Chardonnay:
                 label: Chardonnay
     image:
-      type: TYPO3\Media\Domain\Model\ImageInterface
+      type: Neos\Media\Domain\Model\ImageInterface
       ui:
         label: Bild
         reloadIfChanged: true

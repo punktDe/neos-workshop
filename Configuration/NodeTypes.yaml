@@ -3,13 +3,13 @@
 # Template are visible on your page.
 ---
 
-'TYPO3.Neos.NodeTypes:Page':
+'Neos.NodeTypes:Page':
   childNodes:
     'footer':
       type: 'TYPO3.Neos:ContentCollection'
 
 
-'TYPO3.Neos.NodeTypes:Form':
+'Neos.NodeTypes:Form':
   properties:
     formIdentifier:
       ui:

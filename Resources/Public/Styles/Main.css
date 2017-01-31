@@ -7,7 +7,7 @@
 
 
 /**
-* WhiskeyWorlds CSS
+* Weinladen CSS
 */
 .navbar-default .navbar-brand {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -37,13 +37,13 @@
     color: #75040e;
 }
 
-.typo3-neos-nodetypes-form ul {
+.neos-nodetypes-form ul {
     list-style-type: none;
     padding: 0;
     margin-top: 20px;
 }
 
-.typo3-neos-nodetypes-form .required {
+.neos-nodetypes-form .required {
     display: none;
 }
 

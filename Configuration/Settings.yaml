@@ -1,4 +1,4 @@
-TYPO3:
+Neos:
   Form:
     yamlPersistenceManager:
       savePath: 'resource://WL.WeinLaden/Private/Form/'
@@ -6,12 +6,12 @@ TYPO3:
     presets:
       default:
         formElementTypes:
-          'TYPO3.Form:SingleLineText':
+          'Neos.Form:SingleLineText':
             properties:
               elementClassAttribute: 'form-control'
-          'TYPO3.Form:MultiLineText':
+          'Neos.Form:MultiLineText':
             properties:
               elementClassAttribute: 'form-control'
-          'TYPO3.Form:SingleSelectDropdown':
+          'Neos.Form:SingleSelectDropdown':
             properties:
               elementClassAttribute: 'form-control'
