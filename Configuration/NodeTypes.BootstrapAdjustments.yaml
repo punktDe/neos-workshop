@@ -1,4 +1,4 @@
-'TYPO3.Neos.NodeTypes:TwoColumn':
+'Neos.NodeTypes:TwoColumn':
   properties:
     'layout':
       defaultValue: '9-3'
@@ -18,7 +18,7 @@
               '3-9':
                 label: '25% / 75%'
 
-'TYPO3.Neos.NodeTypes:ThreeColumn':
+'Neos.NodeTypes:ThreeColumn':
   properties:
     layout:
       defaultValue: '4-4-4'
