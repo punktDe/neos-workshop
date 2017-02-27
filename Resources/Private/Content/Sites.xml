@@ -11,7 +11,6 @@
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
-      <canonicalLink __type="string"></canonicalLink>
      </properties>
     </variant>
     <node identifier="bc4351a8-4afd-0b8e-2cee-24ce1c903b92" nodeName="footer">
@@ -23,14 +22,14 @@
       <properties/>
      </variant>
      <node identifier="0599dcc9-71d8-476e-821d-14aca37ace86" nodeName="node-5890eaa90a3f0">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="3" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:05+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:18+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2017-01-31T20:51:18+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:01:21+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:01:21+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string"></text>
+        <text __type="string">&lt;p&gt;Impressum | &lt;a href=&quot;node://d4768120-9b01-4456-aa1d-941817d252c0&quot; data-gentics-aloha-repository=&quot;node-repository&quot; data-gentics-aloha-object-id=&quot;d4768120-9b01-4456-aa1d-941817d252c0&quot;&gt;Kontakt&lt;/a&gt;&lt;/p&gt;</text>
        </properties>
       </variant>
      </node>
@@ -43,15 +42,259 @@
       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</lastModificationDateTime>
       <properties/>
      </variant>
+     <node identifier="59ed8002-241c-470e-8447-cb8c4d810c82" nodeName="node-58b31804bbe18">
+      <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Image" version="5" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T19:01:40+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastPublicationDateTime>
+       <properties>
+        <caption __type="string"></caption>
+        <alignment __type="string"></alignment>
+        <image __type="object" __identifier="3d06ccbd-8f68-47ac-afdf-c3bd057a9936" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;3d06ccbd-8f68-47ac-afdf-c3bd057a9936&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;0f15c2ec-b22b-4f49-b5fe-9960c8276d1e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;jez-timms-111240.jpg&quot;,&quot;hash&quot;:&quot;e6a26682df51e7d37e8ca53a9a13b3333d52d17e&quot;,&quot;__identity&quot;:&quot;558a54ca-7c31-4396-881c-8eb57b9fd61d&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:3102,&quot;position&quot;:10,&quot;width&quot;:6016,&quot;x&quot;:0,&quot;y&quot;:0,&quot;__identity&quot;:&quot;4035f9a8-d5d5-4614-95dc-6f4c230d5398&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="57c73d7d-5b0e-40a8-bed0-b71258b87e87" nodeName="node-58b318e567a56">
+      <variant sortingIndex="75" workspace="live" nodeType="Neos.NodeTypes:Headline" version="10" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T19:05:25+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">&lt;h1&gt;Willkommen in unserem Weinladen&lt;/h1&gt;</title>
+       </properties>
+      </variant>
+     </node>
      <node identifier="39d955e3-a6ef-49e1-afd9-7b9b09d49e9c" nodeName="text1">
-      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="1" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Text" version="2" removed="" hidden="" hiddenInIndex="">
        <dimensions/>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2017-01-31T20:49:53+01:00</lastModificationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:03+01:00</lastPublicationDateTime>
        <properties>
-        <text __type="string">&lt;p&gt;This is the homepage&lt;/p&gt;</text>
+        <text __type="string">&lt;p&gt;Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden. Und weil Sie nun schon die Güte haben, mich ein paar weitere Sätze lang zu begleiten, möchte ich diese Gelegenheit nutzen, Ihnen nicht nur als Lückenfüller zu dienen, sondern auf etwas hinzuweisen, das es ebenso verdient wahrgenommen zu werden: Webstandards nämlich. Sehen Sie, Webstandards sind das Regelwerk, auf dem Webseiten aufbauen. So gibt es Regeln für HTML, CSS, JavaScript oder auch XML; Worte, die Sie vielleicht schon einmal von Ihrem Entwickler gehört haben. Diese Standards sorgen dafür, dass alle Beteiligten aus einer Webseite den größten Nutzen ziehen. Im Gegensatz zu früheren Webseiten müssen wir zum Beispiel nicht mehr zwei verschiedene Webseiten für den Internet Explorer und einen anderen Browser programmieren. Es reicht eine Seite, die - richtig angelegt - sowohl auf verschiedenen Browsern im Netz funktioniert, aber ebenso gut für den Ausdruck oder&lt;br/&gt;&lt;/p&gt;</text>
        </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="c94d7147-c8a0-4cb8-b78e-73293da282ac" nodeName="node-58b317304f894">
+     <variant sortingIndex="300" workspace="live" nodeType="Neos.NodeTypes:Page" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:08+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">weine</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Weine</title>
+      </properties>
+     </variant>
+     <node identifier="fada09b8-8e36-ba48-6add-14f84ffd2c4b" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:FallbackNode" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:08+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="68a2e965-87b3-0724-55ac-79d365d63e88" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:08+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="afd15991-dab6-4967-8d54-cd43408514a8" nodeName="node-58b317671acca">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:ThreeColumn" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:03+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">4-4-4</layout>
+        </properties>
+       </variant>
+       <node identifier="6f53f4c0-67a4-ba83-5c34-f20394f3b4d4" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:03+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="751a9741-117f-44cf-8e67-9e68731ba09c" nodeName="node-58b3176b2ba63">
+         <variant sortingIndex="100" workspace="live" nodeType="WL.WeinLaden:Wine" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:07+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:06+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:06+01:00</lastPublicationDateTime>
+          <properties>
+           <grape __type="string">Syrah</grape>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="995c30bb-9ecf-6c58-ec00-b17ab8c970ec" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:03+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="64cc76c5-37a7-403e-bc73-5188e53ab1b7" nodeName="node-58b31772b79eb">
+         <variant sortingIndex="100" workspace="live" nodeType="WL.WeinLaden:Wine" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:14+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:50+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:06:50+01:00</lastPublicationDateTime>
+          <properties>
+           <grape __type="string">Chardonnay</grape>
+           <image __type="object" __identifier="7da8c3e7-4b46-4288-a05e-aaaf7ef28b44" __classname="Neos\Media\Domain\Model\ImageVariant" __encoding="json">{&quot;__identity&quot;:&quot;7da8c3e7-4b46-4288-a05e-aaaf7ef28b44&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\ImageVariant&quot;,&quot;originalAsset&quot;:{&quot;__identity&quot;:&quot;07cfb53d-d0e7-41d6-9a9e-6dd2e22194f6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;anthony-delanoix-43718.jpg&quot;,&quot;hash&quot;:&quot;b6a8000c6db8625b60e8e131c3c4db6fcd120f46&quot;,&quot;__identity&quot;:&quot;99f9d4f5-48fb-44c8-a893-b0874a05731f&quot;}},&quot;adjustments&quot;:[{&quot;height&quot;:2739,&quot;position&quot;:10,&quot;width&quot;:4105,&quot;x&quot;:311,&quot;y&quot;:990,&quot;__identity&quot;:&quot;a527fc26-40c2-40b8-98f1-f92ac2f85238&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Adjustment\\CropImageAdjustment&quot;}]}</image>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="5fdc752f-9601-f359-f0cc-7721169c034d" nodeName="column2">
+        <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions/>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:03+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="55ee0776-2f59-4457-bd23-de6499fa822d" nodeName="node-58b3177ae96eb">
+         <variant sortingIndex="100" workspace="live" nodeType="WL.WeinLaden:Wine" version="3" removed="" hidden="" hiddenInIndex="">
+          <dimensions/>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:22+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+          <properties>
+           <grape __type="string">Merlot</grape>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+      <node identifier="667523ef-650b-40c8-831d-80530542d95a" nodeName="node-58b317b62ff8d">
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:22+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:01:24+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:01:24+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Unsere Weine&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="9c906b21-817c-4849-9daa-73cd3c7b84e8" nodeName="node-58b3173638ac7">
+     <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:14+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">weinproben</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Weinproben</title>
+      </properties>
+     </variant>
+     <node identifier="dfb34aca-8088-0bf8-69f2-eb5dbc7fe564" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:FallbackNode" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:14+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="12438f38-02dc-c87d-d283-170bfbf5bca6" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:14+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <node identifier="801e2a94-f740-4b6a-b93b-841dda1c9110" nodeName="node-58b3174e55edf">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.NodeTypes:Form" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:38+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastPublicationDateTime>
+        <properties>
+         <formIdentifier __type="string">registration-form</formIdentifier>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="35016d45-0656-4d06-abd4-240adc3b5127" nodeName="node-58b3178dacebe">
+       <variant sortingIndex="50" workspace="live" nodeType="Neos.NodeTypes:Headline" version="10" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:59:41+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:09+01:00</lastPublicationDateTime>
+        <properties>
+         <title __type="string">&lt;h1&gt;Hier können Sie sich zur Weinprobe anmelden&lt;/h1&gt;</title>
+        </properties>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="d4768120-9b01-4456-aa1d-941817d252c0" nodeName="node-58b3173b06256">
+     <variant sortingIndex="400" workspace="live" nodeType="Neos.NodeTypes:Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:19+01:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">kontakt</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Kontakt</title>
+      </properties>
+     </variant>
+     <node identifier="33fb48da-e69a-a1a8-3950-2c0dfd534069" nodeName="footer">
+      <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:FallbackNode" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:19+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="a3fbb1e9-03c3-e6e7-53f3-0aeab7ed06e6" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2017-02-26T18:58:19+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2017-02-26T19:00:12+01:00</lastPublicationDateTime>
+       <properties/>
       </variant>
      </node>
     </node>
