@@ -1,4 +1,4 @@
- # Punkt.de Neos Workshop
+# Punkt.de Neos Workshop
  
  (see english below)
  
@@ -6,7 +6,7 @@
  [Alle Teile des Workshops](https://punkt.de/de/blog/neos-workshop.html) sind in unserem Blog zu finden. 
  
  
- # Punkt.de Neos Tutorial
+# Punkt.de Neos Tutorial
  
  This repository contains the site package according to the punkt.de Neos tutorial.
  You find the [workshop parts](https://punkt.de/en/blog/neos-workshop.html) in our blog.
