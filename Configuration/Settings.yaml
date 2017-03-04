@@ -15,3 +15,28 @@ Neos:
           'Neos.Form:SingleSelectDropdown':
             properties:
               elementClassAttribute: 'form-control'
+
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: Language
+        icon: icon-language
+        default: de
+        defaultPreset: de
+        presets:
+          de:
+            label: Deutsch
+            values:
+              - de
+            uriSegment: deutsch
+          en:
+            label: English
+            values:
+              - en
+            uriSegment: english
+          fr:
+            label: Français
+            values:
+              - fr
+              - en
+            uriSegment: francais

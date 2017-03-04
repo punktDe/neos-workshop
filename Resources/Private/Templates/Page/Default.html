@@ -12,10 +12,16 @@
 </head>
 <body>
 <f:section name="body">
+
     <nav class="navbar navbar-default">
         <div class="container">
-            <a class="navbar-brand" href="/">Wein<span>Laden</span></a>
-            {parts.menu -> f:format.raw()}
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Wein<span>Laden</span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                {parts.menu -> f:format.raw()}
+                {parts.languageMenu -> f:format.raw()}
+            </div>
         </div>
     </nav>
 

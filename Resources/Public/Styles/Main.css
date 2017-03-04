@@ -37,6 +37,18 @@
     color: #75040e;
 }
 
+.navbar-default .navbar-right > li > a {
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 0;
+}
+.navbar-default .navbar-right > li {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 15px;
+    padding: 10px 15px;
+}
+
 .neos-nodetypes-form ul {
     list-style-type: none;
     padding: 0;

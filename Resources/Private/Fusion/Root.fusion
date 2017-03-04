@@ -19,8 +19,14 @@ page = Page {
         sectionName = 'body'
         parts {
             menu = Menu {
-                attributes.class = 'nav navbar-nav pull-right'
+                attributes.class = 'nav navbar-nav'
             }
+
+            languageMenu = Neos.Neos:DimensionsMenu {
+                dimension = 'language'
+                attributes.class = 'nav navbar-nav navbar-right'
+            }
+
             breadcrumb = Breadcrumb
         }
         // These are your content areas, you can define as many as you want, just name them and the nodePath.
