@@ -12,7 +12,7 @@
     "name": "ww/weinladen",
     "autoload": {
         "psr-0": {
-            "WW\\WhiskeyWorld": "Classes/"
+            "WL\\WeinLaden": "Classes/"
         }
     },
     "extra": {
